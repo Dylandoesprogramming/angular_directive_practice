@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='dirPrac'>
+
+<head>
+    <title>Directives</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body ng-controller="mainCtrl">
+    <test-dir info="user1" other-param="Hello,Mom" greet='sayName(message)'></test-dir>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src='./app.js'></script>
+    <script src='./mainCtrl.js'></script>
+    <script src='./mainSrvc.js'></script>
+    <script src='./testDir.js'></script>
+</body>
+
+</html>
